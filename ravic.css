@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+    color: white;
+}
+#logo{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: burlywood;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#link {
+    margin-top: 30px;
+    display:inline-flex;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: space-evenly;
+}
+#link a{
+    text-decoration: none;
+    color: white;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 80px;
+    margin-right: 34px;
+    margin-top: 80px;
+    gap: 20px;
+
+}
+hr{
+   border: 1px solid silver;
+}
+#outbx1{
+
+    border: 1px solid silver;
+}
+#outbx1:hover{
+    color: burlywood;
+  transform: scale(1.1);
+}
+#outbx2:hover{
+    color: burlywood;
+  transform: scale(1.1);
+}
+#outbx3:hover{
+    color:burlywood;
+  transform: scale(1.1);
+}
+#outbx4:hover{
+    color:burlywood;
+  transform: scale(1.1);
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+p{
+    font-weight:bolder;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h4{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center; 
+    font-weight: 500;
+}
+#box2{
+    border: 1px solid silver;
+}
+#box3{
+    border: 1px solid silver;
+}
+#box4{
+    border: 1px solid silver;
+}
+button{
+    margin-left: 590px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+#container1 input{
+    margin-top: 50px;
+    margin-left:90px;
+    padding: 20px;
+    width: 90%;
+    height: 100px;
+}
+#footer1{
+    background-color: black;
+    color: burlywood;
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+#f2{
+    display: inline-flex;
+    grid-template-columns: repeat(3,1fr);
+  justify-content: space-evenly;
+}
+#f2 a{
+    font-style: none;
+    margin-top: 50px;
+    color: burlywood;
+    text-decoration: none;
+}
+h2{
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+#fbo{
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
